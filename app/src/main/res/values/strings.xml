@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">Trangko</string>
+
+    <string name="google_maps_API">AIzaSyB475QTqQaIcwkRD15Z8t-aefbp6UTMcQw</string>
+
+    <string name="text_info">
+<b>1.Wear a bicycle helmet that is properly fitted.</b> Save your life by preserving your brain.\n\n
+
+<b>2.Examine your gear.</b> Tires should be inflated before riding, and brakes should be functioning.\n\n
+
+<b>3.See and be seen.</b> You need to be visible to others whether it is daylight, dawn, dusk, bad weather, or night. There is no evidence that wearing white will increase your visibility. When riding throughout the day or at night, always wear neon, fluorescent, or other vibrant colors. Wear reflective materials as well, such as tape, markers, or flashing lights. Never assume that a driver sees you just because you can see him/her.\n\n
+
+<b>4.Control your bike.</b> Always keep one hand on the handlebars when riding. Put books and other goods in a backpack or bicycle carrier.\n\n
+
+<b>5.Be aware and avoid road hazards.</b> Hazards including potholes, broken glass, gravel, puddles, leaves, and dogs should be avoided. A crash may result from any of these risks. If you are leading a group of pals while riding, shout out and indicate the danger to the bikers following you.\n\n
+
+<b>6.Don’t drive at night.</b> Riding at night is much riskier than riding during the day since you are more difficult to see. Wear anything that makes you more visible to others if you must ride at night. To help others see you, make sure your bicycle has reflectors on the front and back.\n\n
+</string>
+
+    <string name="tools_info">
+<b>1.	Spare Tube.</b> spare tubes are always a good idea because flats do happen. Additionally, you can always help a friend if they forget to bring their own spare tube in case of a puncture.\n\n
+
+<b>2.	Patch kit.</b> Often sold in a tiny pack containing six to eight pieces of pre-glued patches that are quite simple to use. When you ran out of spare tubes, this will be your last option.\n\n
+
+<b>3.	Hand pump.</b> After replacing the tube, you’ll need a hand pump that’s reasonably functional to re-inflate your tire. Both Shraeder and Presta valves can be used with most hand pumps. Bring a portable pump with you on your rides because items (1) and (2) are useless without them.\n\n
+
+<b>4.	Multi-tool.</b> This is useful for tightening bolts on bottle cages, rotors, bake/shifting levers, and seat height adjustments. Select the appropriate tool for your bike, but make sure it has all the features you’ll need, like Allen keys (up to 8mm), Trox wrenches (T25/T30), Philips and Flathead screwdrivers, and a chain tool. Make sure you are familiar with each tool’s usage.\n\n
+
+<b>5.	Tire levers.</b> Bring at least two tire levers and became familiar with their use.\n\n
+</string>
+
+    <string name="handsign_info">https://bicyclensw.org.au/bicycle-hand-signals-3/\n\n</string>
+
+    <string name="traffic_info">
+<b>1.	Go with the traffic flow.</b>  In the same way as other vehicles, drive on the right. Don’t fight the current; go with it.\n\n
+
+<b>2.	Obey all the traffic laws.</b>  You are a driver of a bicycle, which is a vehicle. Be sure to follow all lane lines, traffic signals, and signs when riding on the road.\n\n
+
+<b>3.	Yield to traffic when appropriate.</b>  Drivers on a little road must almost always yield (wait) for vehicles on a larger or busier road. You must slow down and check to make sure the way is clear before moving forward if there is no stop sign or traffic light and you are approaching from a minor roadway (such as a driveway, a sidewalk, a bike path, etc.). Additionally, you must do so when a person has already entered a crosswalk.\n\n
+
+<b>4.	Be predictable.</b>  Ride straight, don’t get in and out of vehicles. Make your movements known to others.\n\n
+
+<b>5.	Stay alert all the times.</b>  Use BOTH of your senses. Be cautious of anything that could cause you to lose control of your bike, including potholes, cracks, wet leaves, storm grates, railroad lines, and more. Wearing a headset will prevent you from hearing traffic and avoiding potentially harmful circumstances while you are driving.\n\n
+
+<b>6.	Look before turning.</b>  Always check for a traffic break behind you before making a left or right turn, and then signal. Watch out for vehicles making a left or right turn.\n\n
+
+<b>7.	Watch for parked cars.</b>  Ride far enough from the curb to prevent being caught off guard by parked cars (like doors opening, or cars pulling out).\n\n
+</string>
+
+    <string name="tips_1">
+<b>Before You Go\n\n</b>
+1.	Pump your tyres to the right pressure.\n\n
+2.	Get your saddle height and riding position right.\n\n
+3.	Dress for the conditions.\n\n
+</string>
+
+    <string name="tips_2">
+<b>What to Take\n\n</b>
+1.	Water and Food.\n\n
+2.	Padded Shorts.\n\n
+3.	Cycling Gloves and Mitts.\n\n
+4.	Take a lock and lights.\n\n
+5.	Have a Saddlepack with Tools, Spares and Cash.\n\n
+</string>
+    <string name="tips_3">
+<b>Where to Go\n\n</b>
+1.	Start Small and Build Up the Distance You Can Cycle.\n\n
+2.	Find Some Ride Buddies.\n\n
+3.	Map It Out.\n\n
+</string>
+
+    <string name="tips_4">
+<b>What to do\n\n</b>
+1.	Learn To Use Gears.\n\n
+2.	Pedal At a Steady Rhythm.\n\n
+3.	Be Confident on the Road.\n\n
+4.	Learn to Corner Properly – Inside Pedal Up.\n\n
+5.	Treat other road users with care.\n\n
+6.	Don’t hang a helmet from your handlebar.\n\n
+7.	Embrace Exploration.\n\n
+</string>
+
+    <string name="tips_5">
+><b>What to do when you get back.\n\n</b>
+1.	Clean Your Bike.\n\n
+2.	Lock Your Bike Up.\n\n
+3.	Be Proud of What You Have Achieved.\n\n
+</string>
+
+    <string name="tips_6">
+<b>What to learn about cycling\n\n</b>
+1.	Practice Fixing a Puncture.\n\n
+2.	Get a Bike Maintenance Book.\n\n
+    </string>
+
+    <string name="accident_info">
+        <b>"https://philstarlife.com/news-and-views/499928-bicycle-accidents-2020?page=3" </b>
+
+\n\nAccording to The Philippine Star web page, 2020 hit the record as the highest bicycle accidents amid subpar infrastructure. As the number of cyclist increased and public transportation was severely restrict by the COVID-19 lockdown, the number of bicycle accidents in Metro Manila increased to their greatest level in 11 years. According to monitoring information provided by the Metropolitan Manila Development Authority, or MMDA, the overall number of bicycle accidents increased significantly last year from 1,759 to 2,606. Additionally, this was the first time that the number of bicycle accidents exceeded 2,000 since the MMDA started keeping track of data in 2009, when it began at 1,111 (Bim Santos, 2021).\n\n
+
+        <b>https://www.topgear.com.ph/news/motoring-news/mmda-bike-related-crashes-2021-a962-20220301</b>
+
+\n\nYes, Metro Manila has come a long way in the fast few years in terms of allowing bikers. The nation’s capital still has a ways to go before it can be referred to as “bicycle-friendly”. The Metro Manila Development Authority’s (MMDA) 2021 figures on bicycle-related road crashes serve as simple evidence. 2,397 bicycle-related traffic accidents were documented by the organization last year. 33 of those instances resulted in death, while 1,719 caused non-fatal injuries. Property was damaged as a consequence of 645 separate incidents. (Drei Laurel, 2022)
+
+</string>
+
+    <string name="terms_of_service">
+        <b>Terms of Service</b>
+
+        \n\nThese terms of Service shall govern the access to and/or use of the online platform of Trangko including, but not limited to, the mobile application. It shall be the sole responsibility of the User to fully read and understand these Terms of Service in accessing the Site and/or using the Site Services. Access of the Site and/or use of the Site Services shall constitute acceptance of, and agreement to be bound by these Terms of Service. If you do not agree to these Terms of Service, do not access and/or use the Site.\n\n
+
+       <b>1.	DEFINITIONS</b>
+
+        \n\n<i>Section 1 states the meaning of the following words and phrases used in this Terms of Service.</i>
+
+        \n\n“Site” refers to the mobile application owned and maintained by Trangko, which is an online platform where Cyclists can identify and connect with each other for the purpose of executing connections with other users.
+        \n\n“Site Services” refers to the hosting and maintenance of the Site by Trangko.
+        \n\n“User” refers to any person or entity that accesses and/or uses the Site whether as a visitor or biker.
+
+        <b>\n\n2.	PURPOSE OF Trangko</b>
+        \n\nSection 2 discusses what Trangko does and does not do when allowing the use of the Site and providing the Site Services.
+
+
+        <b>\n\n\t2.1	TRANGKO BUSINESS ACTIVITY</b>
+        \nTrangko gives services that enable Bikers to connect with co-bikers, build communities, share achievements, and give out necessary precautions and tips to Users.
+
+        <b>\n\n\t2.2	TRANGKO LIMITATIONS</b>
+        \n\n(a)	Trangko does not charge users to use its Service unless stated otherwise.
+
+        \n\n(b)	Personal data is only used to determine how to personalize ads to show to its Users.
+        Trangko doesn’t share information that directly identifies the User (such as the name, email address, and/or other contact information)
+
+        \n\n(c)	Trangko does not: (i) make any representations about or guarantee the truth or accuracy of any User’s information and content on the Site;
+        (ii) does not verify any feedback or information provided by Users about Bikers;
+        and (iii) does not vet or otherwise perform background checks on Users.
+
+        <b>\n\n3.	Trangko ACCOUNT</b>
+        \n\nSection 3 states the requirements for creating a Trangko account.
+
+        <b>\n\n3.1	REGISTRATION AND ACCEPTANCE</b>
+        \n\nTo access and use certain portions of the Site and Site Services, a User must register for a Trangko Account.
+        By registering for a Trangko Account and by accepting the Terms of Service, a User agrees to be bound and to abide by the provisions of these Terms of Service and subsequent changes.
+        Trangko reserves the right to decline a registration for a Trangko Account or to add to an Account or Accounts of a User.
+
+        <b>\n\n\t3.2	 LOCATION VERIFICATION</b>
+        \n\nTrangko app will ask for the User’s location to pin the nearest landmark,
+        emergency exits, and the likes which will be beneficial to the Users every time they use the app.
+        This will be enabled by the Users and will not be available if they decline to do so.
+
+        <b>\n\n\t4.	GOVERNING LAW/CHOICE OF LAW</b>
+        \n\nThese Terms of Service shall be governed and interpreted pursuant to the law of the Philippines.
+
+
+
+    </string>
+
+    <string name="privacy_policy">
+
+        <b>Privacy Policy</b>
+
+        \n\nThis Data Privacy Policy (also referred to as Policy or Privacy Notice) contains information on how Trangko collects, uses, processes,
+        and discloses the User’s Personal Data in connection with the access to and/or use of the online platform of Trangko including, but not limited to,
+        the mobile application (collectively the “Site”). It shall be the sole responsibility of the User to fully read and understand this Policy in accessing the Site and/or the Site Services.
+        The User shall be conclusively deemed to have agreed to this Policy and shall be deemed to have given consent to the collection, use, processing, and disclosure by Trangko of Personal Data.
+
+        <b>\n\n1.	DEFINITIONS</b>
+
+        \n\n“Trangko Account” refers to the arrangement in which Trangko grants the User the right to access and use the Site and Site Services upon compliance by the User with Trangko requirements.
+        \n\n“Personal Data” means any data, whether true or not, which is
+                \n\n(a) about an individual who can be identified
+                 \n   (i) from that data; or
+                 \n   (ii) from that data and other information to which we have or are likely to have access and would include data in our records as may be updated from time to time, or
+                \n\n(b) defined as “personal data” or “personal information” under any applicable Data Protection Laws.
+                Examples of Personal Data that Trangko may collect include the User’s name, contact details, email address, birthday, network, and device data (including IP address and device or advertising identifiers).
+
+        \n\n“Site” refers to the mobile application owned and maintained by Trangko, which is an online platform where Bikers can identify and connect with each other for the purpose of executing connections with other users.
+        \n\n“Site Services” refers to the hosting and maintenance of the Site by Trangko.
+        \n\n“User” refers to any person or entity that accesses and/or uses the Site whether as a visitor or biker.
+
+        <b>\n\n2.	COLLECTION OF PERSONAL DATA</b>
+
+        \n\nWhen accessing and/or using the Site, Trangko may ask Users to provide Personal Data which may include, but is not limited to, the User’s name, birthday, physical address, email address. Trangko may also collect information on how the Site or Sites are accessed and used ("Usage Data").
+        \n\nTrangko collects location data when the Site is running in the foreground (app open and on-screen) or background (app open but not on-screen) on the User’s device. The location data is used to improve the User’s experience on the Site by efficiently matching Users with nearby services.
+
+        \n\nTrangko may use cookies and similar tracking technologies to track the activity on the Site. Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to a User’s browser from a website and stored on the User’s device. Other tracking technologies are also used such as beacons, tags and scripts to collect and track information and to improve and analyze Site activity and performance.
+        \n\nUsers can instruct their browser to refuse all cookies or to indicate when a cookie is being sent. However, if Users do not accept cookies, such Users may not be able to use some portions of the Site and Site Services.
+
+         <b>\n\n3.	USE OF PERSONAL DATA</b>
+        \n\nTrangko may use and disclose Personal Data for purposes necessary to maintain the Site and provide Users the Site Services, including to:
+        \n\na.) register and maintain Trangko Account,
+        \n\nb.) deliver or perform the Site Services,
+        \n\nc.) communicate with User regarding queries, requests and feedback as well as material changes to the Site, Site Services, the Terms of Use, this Policy or other terms and conditions,
+        \n\nd.) personalize and improve User experience in using the Site
+        \n\ne.) monitor and enforce compliance with the Terms of Use,
+        \n\nf.) comply with internal risk controls,
+        \n\ng.) ensure Trangko Site function properly and to improve their performance, by carrying out activities such as debugging and statistical analysis,
+        \n\nh.) send Users marketing communications in relation to Trangko Site and in relation to the sales, products, services or promotions of business partners,
+        \n\ni.) deliver ads which may be of interest to Users on the Site or other websites, apps or online platforms,
+        \n\nj.) invite Users to Trangko events,
+        \n\nk.) process User participation in Trangko and Trangko business partners’ promotions and initiatives,
+        \n\nl.) conduct market and customer research, analysis or tracking,
+        \n\nm.) manage the administrative and business operations of Trangko, and
+        \n\nn.) for other purposes which are reasonably related to the foregoing.
+
+        \n\nTrangko will make reasonable efforts to ensure Personal Data that it will use or disclose to another organization is accurate and complete.
+        However, Users should update Trangko of any changes in their Personal Data.
+        Trangko will not be responsible for relying on inaccurate or incomplete Personal Data if Users have not updated Trangko on changes.
+
+        \n\nTrangko will not retain Personal Data for longer than is necessary and will take reasonable steps to destroy or permanently de-identify Personal Data.
+
+        \n\nTrangko will take all the steps reasonably necessary to ensure that Personal Data is treated securely and in accordance with this Privacy Policy and no transfer of Personal Data will take place to an organization or a country unless there are adequate controls in place.
+        In the event that Trangko becomes aware of a security breach that Trangko may believe has resulted or may result in the unauthorized access, use, or disclosure of Personal Data,
+        Trangko will promptly investigate the matter and notify the User of such breach.
+        However, Trangko will not be responsible for any unauthorized use of Personal Data by third parties which is attributable to factors beyond the control of Trangko.
+
+       <b>\n\n4.	DATA POLICY UPDATES</b>
+        \n\nTrangko may update this Policy to ensure that it is consistent with industry trends and/or any changes in legal or regulatory requirements.
+        The user agrees to be bound by the prevailing terms of the Policy as updated from time to time.
+
+        <b>\n\n5.	GOVERNING LAW</b>
+        \n\nThis Policy and use of the Site or Sites and/or Site Services shall be governed in all respects by the laws of the Philippines.
+
+
+
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

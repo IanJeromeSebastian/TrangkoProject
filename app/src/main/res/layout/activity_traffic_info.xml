@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    tools:context=".SafetyContent.TrafficInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_background"
+            tools:context=".Info.SafetyInfo">
+
+            <TextView
+                android:id="@+id/textsafe"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btnbg"
+                android:gravity="center"
+                android:text="Traffic rules and Lights"
+                android:textColor="@color/white"
+                android:textSize="33sp"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/traffic_flow"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/traffic_flow"
+                android:gravity="center"
+                android:layout_below="@+id/textsafe"
+                />
+
+            <TextView
+                android:id="@+id/info_flow"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traffic_flow"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="1.Go with the traffic flow.  In the same way as other vehicles, drive on the right. Don’t fight the current; go with it."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/traffic_rule"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/traffic_rule"
+                android:gravity="center"
+                android:layout_below="@+id/info_flow"
+                />
+
+            <TextView
+                android:id="@+id/info_rule"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traffic_rule"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="2.Obey all the traffic laws. You are a driver of a bicycle, which is a vehicle. Be sure to follow all lane lines, traffic signals, and signs when riding on the road."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/traffic_yield"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/yield_traffic"
+                android:gravity="center"
+                android:layout_below="@+id/info_rule"
+                />
+
+            <TextView
+                android:id="@+id/info_yield"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traffic_yield"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="3.Yield to traffic when appropriate.  Drivers on a little road must almost always yield (wait) for vehicles on a larger or busier road. You must slow down and check to make sure the way is clear before moving forward if there is no stop sign or traffic light and you are approaching from a minor roadway (such as a driveway, a sidewalk, a bike path, etc.). Additionally, you must do so when a person has already entered a crosswalk."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/traffic_predict"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/predictable"
+                android:gravity="center"
+                android:layout_below="@+id/info_yield"
+                />
+
+            <TextView
+                android:id="@+id/info_predict"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traffic_predict"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="4.Be predictable. Ride straight, don’t get in and out of vehicles. Make your movements known to others."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/traffic_alert"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/alert"
+                android:gravity="center"
+                android:layout_below="@+id/info_predict"
+                />
+
+            <TextView
+                android:id="@+id/info_alert"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traffic_alert"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="5.Stay alert all the times. Use BOTH of your senses. Be cautious of anything that could cause you to lose control of your bike, including potholes, cracks, wet leaves, storm grates, railroad lines, and more. Wearing a headset will prevent you from hearing traffic and avoiding potentially harmful circumstances while you are driving."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/traffic_look"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/look_turn"
+                android:gravity="center"
+                android:layout_below="@+id/info_alert"
+                />
+
+            <TextView
+                android:id="@+id/info_look"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traffic_look"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="6.Look before turning.  Always check for a traffic break behind you before making a left or right turn, and then signal. Watch out for vehicles making a left or right turn."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/traffic_park"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/park_cars"
+                android:gravity="center"
+                android:layout_below="@+id/info_look"
+                />
+
+            <TextView
+                android:id="@+id/info_park"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traffic_park"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="7.Watch for parked cars. Ride far enough from the curb to prevent being caught off guard by parked cars (like doors opening, or cars pulling out)."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

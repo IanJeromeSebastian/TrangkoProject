@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    tools:context=".SafetyContent.SafetyInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Info.SafetyInfo">
+
+
+            <TextView
+                android:id="@+id/textsafe"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btnbg"
+                android:gravity="center"
+                android:text="Safety Precautions"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/check_helmet"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/check_helmet"
+                android:gravity="center"
+                android:layout_below="@+id/textsafe"
+                />
+
+            <TextView
+                android:id="@+id/info_helmet"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check_helmet"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="1.Wear a bicycle helmet that is properly fitted. Save your life by preserving your brain."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/check_bike"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/check_bike"
+                android:gravity="center"
+                android:layout_below="@+id/info_helmet"
+                />
+
+            <TextView
+                android:id="@+id/info_bike"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/check_bike"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="2.Examine your gear. Tires should be inflated before riding, and brakes should be functioning."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/seen_beseen"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/seen_beseen"
+                android:gravity="center"
+                android:layout_below="@+id/info_bike"
+                />
+
+            <TextView
+                android:id="@+id/info_seen"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seen_beseen"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:background="@drawable/popup_edittext_style"
+                android:textAlignment="textStart"
+                android:lineSpacingExtra="2dp"
+                android:text="3.See and be seen. You need to be visible to others whether it is daylight, dawn, dusk, bad weather, or night. There is no evidence that wearing white will increase your visibility. When riding throughout the day or at night, always wear neon, fluorescent, or other vibrant colors. Wear reflective materials as well, such as tape, markers, or flashing lights. Never assume that a driver sees you just because you can see him/her."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/bike_control"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/control_bike"
+                android:gravity="center"
+                android:layout_below="@+id/info_seen"
+                />
+
+            <TextView
+                android:id="@+id/info_control"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bike_control"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="textStart"
+                android:background="@drawable/popup_edittext_style"
+                android:lineSpacingExtra="2dp"
+                android:text="4.Control your bike. Always keep one hand on the handlebars when riding. Put books and other goods in a backpack or bicycle carrier."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/road_hazard"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/road_hazard"
+                android:gravity="center"
+                android:layout_below="@+id/info_control"
+                />
+            <TextView
+                android:id="@+id/info_road"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/road_hazard"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="textStart"
+                android:background="@drawable/popup_edittext_style"
+                android:lineSpacingExtra="2dp"
+                android:text="5.Be aware and avoid road hazards. Hazards including potholes, broken glass, gravel, puddles, leaves, and dogs should be avoided. A crash may result from any of these risks. If you are leading a group of pals while riding, shout out and indicate the danger to the bikers following you."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/night_drive"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/night_drive"
+                android:gravity="center"
+                android:layout_below="@+id/info_road"
+                />
+            <TextView
+                android:id="@+id/info_night"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/night_drive"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="textStart"
+                android:background="@drawable/popup_edittext_style"
+                android:lineSpacingExtra="2dp"
+                android:text="6.Don’t drive at night. Riding at night is much riskier than riding during the day since you are more difficult to see. Wear anything that makes you more visible to others if you must ride at night. To help others see you, make sure your bicycle has reflectors on the front and back."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

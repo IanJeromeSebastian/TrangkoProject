@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Chat.GroupInfoActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:background="@color/brown">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/backBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:background="@color/brown"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/btn_back"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/groupName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Community Name"
+                    android:textColor="@color/teal_200"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/eventBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/brown"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/event_btn"
+                    android:visibility="visible"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:id="@+id/groupIconIv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/descriptiontv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/createdByTv"
+                    android:text="Description"
+                    android:background="#2E3F53"
+                    android:textColor="@color/white"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/createdByTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="5dp"
+                    android:text="Created by ... date"
+                    android:textColor="#2E3F53" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/brown" />
+
+            <TextView
+                android:id="@+id/editGroupTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_edit"
+                android:drawableTint="@color/teal_200"
+                android:gravity="center_vertical"
+                android:drawablePadding="10dp"
+                android:text="Edit Group"
+                android:padding="5dp"
+                android:textColor="@color/teal_200"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/brown" />
+
+            <TextView
+                android:id="@+id/addParticipantTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_person_add"
+                android:drawableTint="@color/teal_200"
+                android:gravity="center_vertical"
+                android:drawablePadding="10dp"
+                android:text="Add Participant"
+                android:padding="5dp"
+                android:textColor="@color/teal_200"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/brown" />
+
+            <TextView
+                android:id="@+id/leaveGroupTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_leave"
+                android:drawableTint="@color/teal_200"
+                android:gravity="center_vertical"
+                android:drawablePadding="10dp"
+                android:text="Leave Group"
+                android:padding="5dp"
+                android:textColor="@color/teal_200"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/brown" />
+
+            <TextView
+                android:id="@+id/participantsTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_group_primary"
+                android:drawableTint="@color/teal_200"
+                android:gravity="center_vertical"
+                android:drawablePadding="10dp"
+                android:text="Participants"
+                android:padding="5dp"
+                android:textColor="@color/teal_200"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/brown" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/participantsRv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/row_participant_add"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

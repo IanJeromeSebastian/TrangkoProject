@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gathering.EventCreateActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:background="@color/brown">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/backBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:background="@color/brown"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/btn_back"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Create Gathering"
+                    android:textColor="@color/teal_200"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/uploadBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/brown"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/btn_add"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativeLayout"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/eventTitleEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editextstyle"
+            android:hint="Title"
+            android:padding="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/eventDescriptionEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventTitleEt"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editextstyle"
+            android:gravity="top"
+            android:hint="Description"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minHeight="100dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/eventDateEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventDescriptionEt"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editextstyle"
+            android:hint="Date"
+            android:padding="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/eventTimeEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventDateEt"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editextstyle"
+            android:hint="Time"
+            android:padding="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/eventLocEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventTimeEt"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editextstyle"
+            android:hint="Location"
+            android:padding="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <FrameLayout
+            android:id="@+id/eventMap"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/eventLocEt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/editextstyle"></FrameLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

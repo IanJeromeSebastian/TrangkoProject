@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fabshape">
+
+        <item name="cornerSize">0dp</item>
+        <item name="cornerSizeTopLeft">100%</item>
+        <item name="cornerFamily">cut</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+
+    </style>
+
+</resources>

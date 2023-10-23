@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/nav_icon"
+        app:cnb_backgroundColor="@color/bg"
+        app:cnb_iconColor="#2E3F53"
+        app:cnb_textColor="#2E3F53"
+        android:title="Newsfeed"/>
+
+    <item
+        android:id="@+id/community"
+        android:icon="@drawable/community_icon"
+        app:cnb_backgroundColor="@color/bg"
+        app:cnb_iconColor="#2E3F53"
+        app:cnb_textColor="#2E3F53"
+        android:title="Community"/>
+
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/map_icon"
+        app:cnb_backgroundColor="@color/bg"
+        app:cnb_iconColor="#2E3F53"
+        app:cnb_textColor="#2E3F53"
+        android:title="Map"/>
+
+    <item
+        android:id="@+id/safety"
+        android:icon="@drawable/safety_icon"
+        app:cnb_backgroundColor="@color/bg"
+        app:cnb_iconColor="#2E3F53"
+        app:cnb_textColor="#2E3F53"
+        android:title="Safety"/>
+</menu>

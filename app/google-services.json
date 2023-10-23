@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "946192351813",
+    "firebase_url": "https://trangko-new-default-rtdb.firebaseio.com",
+    "project_id": "trangko-new",
+    "storage_bucket": "trangko-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946192351813:android:07cf2dc53e86c7efcf192c",
+        "android_client_info": {
+          "package_name": "com.example.trangko_new_ver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946192351813-i1ihki1qjb8ir8gjb7jebbkhu7uveb7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trangko_new_ver",
+            "certificate_hash": "20c9a5126f7f44ec71c96103c08b7bc3fad338ed"
+          }
+        },
+        {
+          "client_id": "946192351813-nkpj64t1nvlqek9073fpgb2k07jg0ac2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWlWMSRScmzEtpAA9TpAmCBGJ1d1-E2mA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946192351813-nkpj64t1nvlqek9073fpgb2k07jg0ac2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

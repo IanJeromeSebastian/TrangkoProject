@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    tools:context=".SafetyContent.ToolsInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_background"
+            tools:context=".Info.SafetyInfo">
+
+            <TextView
+                android:id="@+id/textsafe"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btnbg"
+                android:gravity="center"
+                android:text="Basic Tools to Bring"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/spare_tube"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/spare_tire"
+                android:gravity="center"
+                android:layout_below="@+id/textsafe"
+                />
+
+            <TextView
+                android:id="@+id/info_spare"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spare_tube"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="1.Spare Tube. spare tubes are always a good idea because flats do happen. Additionally, you can always help a friend if they forget to bring their own spare tube in case of a puncture."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/patch_kit"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/patch_kit"
+                android:gravity="center"
+                android:layout_below="@+id/info_spare"
+                />
+
+            <TextView
+                android:id="@+id/info_patch"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/patch_kit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="2.Patch kit. Often sold in a tiny pack containing six to eight pieces of pre-glued patches that are quite simple to use. When you ran out of spare tubes, this will be your last option."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/hand_pump"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/hand_pump"
+                android:gravity="center"
+                android:layout_below="@+id/info_patch"
+                />
+
+            <TextView
+                android:id="@+id/info_pump"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hand_pump"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="3.Hand pump. After replacing the tube, you’ll need a hand pump that’s reasonably functional to re-inflate your tire. Both Shraeder and Presta valves can be used with most hand pumps. Bring a portable pump with you on your rides because items (1) and (2) are useless without them."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/multi_tool"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/multi_tool"
+                android:gravity="center"
+                android:layout_below="@+id/info_pump"
+                />
+
+            <TextView
+                android:id="@+id/info_tool"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/multi_tool"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="4.Multi-tool. This is useful for tightening bolts on bottle cages, rotors, bake/shifting levers, and seat height adjustments. Select the appropriate tool for your bike, but make sure it has all the features you’ll need, like Allen keys (up to 8mm), Trox wrenches (T25/T30), Philips and Flathead screwdrivers, and a chain tool. Make sure you are familiar with each tool’s usage."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/tire_lever"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tire_lever"
+                android:gravity="center"
+                android:layout_below="@+id/info_tool"
+                />
+
+            <TextView
+                android:id="@+id/info_lever"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tire_lever"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/popup_edittext_style"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="5.Tire levers. Bring at least two tire levers and became familiar with their use."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
